@@ -8,17 +8,25 @@
         {
             //3
             MathDelegate mathDel = Add;
-            MathDelegate mathDel2 = new MathDelegate(Add);
-            MathDelegate mathDel3 = Add;
+            MathDelegate mathDel2 = new MathDelegate(mathDel);
+            MathDelegate obj = delegate (int a, int b)
+            {
+                Console.WriteLine(a + b);
+            };
+            MathDelegate obj1 = (int a, int b) =>
+            {
+                Console.WriteLine(a + b);
+            };
+            //MathDelegate mathDel3 = Add;
             //multiDelegates
-            mathDel3 += Substract;
-            mathDel3 += Multiplication;
-            mathDel3 += Division;
+            //mathDel3 += Substract;
+            //mathDel3 += Multiplication;
+            //mathDel3 += Division;
 
             //4
             mathDel(2, 3);
-            mathDel2(10, 20);
-            mathDel3(10, 3);
+            //mathDel2(10, 20);
+            //mathDel3(10, 3);
         }
         //2
         public static void Add(int num1,int num2) 
