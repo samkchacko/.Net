@@ -1,4 +1,4 @@
-﻿namespace DictionaryUserDemo
+﻿namespace DictionaryCurrencyDemo
 {
     internal class Program
     {
@@ -19,9 +19,12 @@
             //    { "USD",new KeyValuePair<string,double>("INR",0.83) },
             //    { "INR",new KeyValuePair<string,double>("SGD",0.017) },
             //};
-            AddCurrencyRate("USD", "INR", 83);
-            AddCurrencyRate("INR", "USD", .07);
-            AddCurrencyRate("SGC", "INR", 200);
+            AddCurrencyRate("USD", "INR", 83.34);
+            AddCurrencyRate("INR", "USD", .012);
+            AddCurrencyRate("SGC", "INR", 62.23);
+            AddCurrencyRate("INR", "SGD", 0.16);
+            AddCurrencyRate("INR", "GBP", .0095);
+            AddCurrencyRate("GBP", "INR", 105.08);
             Console.WriteLine("Enter the source Currency");
             string source = Console.ReadLine().ToUpper();
             if (string.IsNullOrEmpty(source) || !currency.ContainsKey(source))
