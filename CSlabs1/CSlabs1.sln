@@ -43,11 +43,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTableDemo", "HashTableD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventDeligateVilla", "EventDeligateVilla\EventDeligateVilla.csproj", "{2ECDD3CA-9EB9-48B2-92A4-5DEAC4366437}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListDemoFood", "ListDemoFood\ListDemoFood.csproj", "{4B2C940F-84E5-4F11-AD91-A8761DEC9C1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListDemoFood", "ListDemoFood\ListDemoFood.csproj", "{4B2C940F-84E5-4F11-AD91-A8761DEC9C1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryUserDemo", "DictionaryUserDemo\DictionaryUserDemo.csproj", "{04B1033D-FEF7-41FC-840C-C7C92F42FCCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryCurrencyDemo", "DictionaryUserDemo\DictionaryCurrencyDemo.csproj", "{04B1033D-FEF7-41FC-840C-C7C92F42FCCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp3Feature", "CSharp3Feature\CSharp3Feature.csproj", "{D2FAB97C-55FB-4861-B601-829A5521A893}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp3Feature", "CSharp3Feature\CSharp3Feature.csproj", "{D2FAB97C-55FB-4861-B601-829A5521A893}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
